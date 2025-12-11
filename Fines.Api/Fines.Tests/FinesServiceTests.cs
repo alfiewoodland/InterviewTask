@@ -1,4 +1,5 @@
 using Fines.Core.Enums;
+using Fines.Data;
 using Fines.Data.Models;
 using Fines.Services;
 using Moq;

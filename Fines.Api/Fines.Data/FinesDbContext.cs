@@ -4,12 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Fines.Data;
 
-public class FinesDbContext : DbContext
+public class FinesDbContext(DbContextOptions<FinesDbContext> options) : DbContext(options)
 {
-    public FinesDbContext(DbContextOptions<FinesDbContext> options) : base(options)
-    {
-    }
-
     public DbSet<FinesEntity> Fines { get; set; }
     public DbSet<CustomerEntity> Customers { get; set; }
     public DbSet<VehicleEntity> Vehicles { get; set; }
@@ -26,7 +22,7 @@ public class FinesDbContext : DbContext
             .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<FinesEntity>()
-            .HasOne<CustomerEntity>()
+            .HasOne(f => f.Customer) //.HasOne<CustomerEntity>() For some reason this doesnt work so I changed to Customer
             .WithMany()
             .HasForeignKey(f => f.CustomerId)
             .OnDelete(DeleteBehavior.Restrict);
