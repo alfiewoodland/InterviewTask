@@ -21,11 +21,11 @@ namespace Fines.Tests
         {
             // Arrange
             var finesEntities = GetSampleFinesEntities();
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ReturnsAsync(finesEntities);
 
             // Act
-            var result = await _service.GetFinesAsync();
+            var result = await _service.GetFinesAsync(null, null, null, null, null);
 
             // Assert
             var finesList = result.ToList();
@@ -38,14 +38,14 @@ namespace Fines.Tests
         {
             // Arrange
             var finesEntities = GetSampleFinesEntities();
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ReturnsAsync(finesEntities);
 
             // Act
-            await _service.GetFinesAsync();
+            await _service.GetFinesAsync(null, null, null, null, null);
 
             // Assert
-            _mockRepository.Verify(repo => repo.GetAllFinesAsync(), Times.Once);
+            _mockRepository.Verify(repo => repo.GetAllFinesAsync(null, null, null, null, null), Times.Once);
         }
 
         [Fact]
@@ -75,11 +75,11 @@ namespace Fines.Tests
                     VehicleDriverName = "John Doe"
                 }
             };
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ReturnsAsync(finesEntities);
 
             // Act
-            var result = await _service.GetFinesAsync();
+            var result = await _service.GetFinesAsync(null, null, null, null, null);
 
             // Assert
             var fine = result.First();
@@ -95,11 +95,11 @@ namespace Fines.Tests
         public async Task GetFinesAsync_WhenNoFines_ReturnsEmptyCollection()
         {
             // Arrange
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ReturnsAsync(new List<FinesEntity>());
 
             // Act
-            var result = await _service.GetFinesAsync();
+            var result = await _service.GetFinesAsync(null, null, null, null, null);
 
             // Assert
             Assert.NotNull(result);
@@ -118,11 +118,11 @@ namespace Fines.Tests
                 new FinesEntity { Id = 4, FineNo = "FN-004", FineDate = DateTime.Now, FineType = FineType.NoInsurance, VehicleId = 4, Vehicle = new VehicleEntity { Id = 4, RegistrationNumber = "REG4" }, VehicleDriverName = "Driver4" },
                 new FinesEntity { Id = 5, FineNo = "FN-005", FineDate = DateTime.Now, FineType = FineType.SeatBeltViolation, VehicleId = 5, Vehicle = new VehicleEntity { Id = 5, RegistrationNumber = "REG5" }, VehicleDriverName = "Driver5" }
             };
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ReturnsAsync(finesEntities);
 
             // Act
-            var result = await _service.GetFinesAsync();
+            var result = await _service.GetFinesAsync(null, null, null, null, null);
 
             // Assert
             var finesList = result.ToList();
@@ -137,11 +137,11 @@ namespace Fines.Tests
         public async Task GetFinesAsync_WhenRepositoryThrowsException_PropagatesException()
         {
             // Arrange
-            _mockRepository.Setup(repo => repo.GetAllFinesAsync())
+            _mockRepository.Setup(repo => repo.GetAllFinesAsync(null, null, null, null, null))
                 .ThrowsAsync(new Exception("Database error"));
 
             // Act & Assert
-            await Assert.ThrowsAsync<Exception>(() => _service.GetFinesAsync());
+            await Assert.ThrowsAsync<Exception>(() => _service.GetFinesAsync(null, null, null, null, null));
         }
 
         private static List<FinesEntity> GetSampleFinesEntities()
@@ -179,6 +179,121 @@ namespace Fines.Tests
                     VehicleDriverName = "Bob Johnson"
                 }
             };
+        }
+
+        [Fact]
+        public async Task GetFinesAsync_ReturnsMappedResponses()
+        {
+            // Arrange
+            var entities = new List<FinesEntity>
+            {
+                new FinesEntity
+                {
+                    Id = 1,
+                    FineNo = "FN-001",
+                    FineDate = new DateTime(2024, 1, 15),
+                    FineType = FineType.Speeding,
+                    VehicleDriverName = "John Doe",
+                    Vehicle = new VehicleEntity
+                    {
+                        RegistrationNumber = "ABC123"
+                    }
+                }
+            };
+
+            _mockRepository
+                .Setup(r => r.GetAllFinesAsync(
+                    It.IsAny<FineType?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<string?>(),
+                    It.IsAny<string?>()
+                ))
+                .ReturnsAsync(entities);
+
+            // Act
+            var result = (await _service.GetFinesAsync(
+                FineType.Speeding,
+                new DateTime(2024, 1, 1),
+                new DateTime(2024, 1, 31),
+                "John",
+                "ABC"
+            )).ToList();
+
+            // Assert
+            Assert.Single(result);
+
+            var fine = result[0];
+            Assert.Equal(1, fine.Id);
+            Assert.Equal("FN-001", fine.FineNo);
+            Assert.Equal(FineType.Speeding, fine.FineType);
+            Assert.Equal("ABC123", fine.VehicleRegNo);
+            Assert.Equal("John Doe", fine.VehicleDriverName);
+
+            _mockRepository.Verify(
+                r => r.GetAllFinesAsync(
+                    It.IsAny<FineType?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<string?>(),
+                    It.IsAny<string?>()
+                ),
+                Times.Once
+            );
+        }
+
+        [Fact]
+        public async Task GetFinesAsync_WhenNoResults_ReturnsEmptyCollection()
+        {
+            // Arrange
+            _mockRepository
+                .Setup(r => r.GetAllFinesAsync(
+                    It.IsAny<FineType?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<string?>(),
+                    It.IsAny<string?>()
+                ))
+                .ReturnsAsync(new List<FinesEntity>());
+
+            // Act
+            var result = await _service.GetFinesAsync(
+                null,
+                null,
+                null,
+                null,
+                null
+            );
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Empty(result);
+        }
+
+        [Fact]
+        public async Task GetFinesAsync_WhenRepositoryThrows_ExceptionIsPropagated()
+        {
+            // Arrange
+            _mockRepository
+                .Setup(r => r.GetAllFinesAsync(
+                    It.IsAny<FineType?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<DateTime?>(),
+                    It.IsAny<string?>(),
+                    It.IsAny<string?>()
+                ))
+                .ThrowsAsync(new Exception("Database error"));
+
+            // Act & Assert
+            await Assert.ThrowsAsync<Exception>(() =>
+                _service.GetFinesAsync(
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                )
+            );
         }
     }
 }
