@@ -14,7 +14,7 @@ public static class FinesSeedData
             {
                 Id = 1,
                 FineNo = "F001",
-                FineDate = new DateTime(2024, 3, 15),
+                FineDate = new DateTime(2026, 3, 15),
                 FineType = FineType.Speeding,
                 VehicleDriverName = "Michael Johnson",
                 VehicleId = 1,
@@ -24,7 +24,7 @@ public static class FinesSeedData
             {
                 Id = 2,
                 FineNo = "F002",
-                FineDate = new DateTime(2024, 5, 22),
+                FineDate = new DateTime(2026, 5, 22),
                 FineType = FineType.Speeding,
                 VehicleDriverName = "Sarah Williams",
                 VehicleId = 2,
@@ -34,7 +34,7 @@ public static class FinesSeedData
             {
                 Id = 3,
                 FineNo = "F003",
-                FineDate = new DateTime(2024, 7, 8),
+                FineDate = new DateTime(2026, 7, 8),
                 FineType = FineType.Speeding,
                 VehicleDriverName = "Jennifer Brown",
                 VehicleId = 3,
@@ -44,7 +44,7 @@ public static class FinesSeedData
             {
                 Id = 4,
                 FineNo = "F004",
-                FineDate = new DateTime(2024, 9, 14),
+                FineDate = new DateTime(2026, 9, 14),
                 FineType = FineType.Speeding,
                 VehicleDriverName = "Emma Garcia",
                 VehicleId = 4,
@@ -54,7 +54,7 @@ public static class FinesSeedData
             {
                 Id = 5,
                 FineNo = "F005",
-                FineDate = new DateTime(2024, 11, 29),
+                FineDate = new DateTime(2026, 11, 29),
                 FineType = FineType.Speeding,
                 VehicleDriverName = "Robert Martinez",
                 VehicleId = 5,
@@ -66,7 +66,7 @@ public static class FinesSeedData
             {
                 Id = 6,
                 FineNo = "F006",
-                FineDate = new DateTime(2024, 2, 10),
+                FineDate = new DateTime(2026, 2, 10),
                 FineType = FineType.Parking,
                 VehicleDriverName = "Lisa Anderson",
                 VehicleId = 6,
@@ -76,7 +76,7 @@ public static class FinesSeedData
             {
                 Id = 7,
                 FineNo = "F007",
-                FineDate = new DateTime(2024, 4, 17),
+                FineDate = new DateTime(2026, 4, 17),
                 FineType = FineType.Parking,
                 VehicleDriverName = "James Wilson",
                 VehicleId = 7,
@@ -86,7 +86,7 @@ public static class FinesSeedData
             {
                 Id = 8,
                 FineNo = "F008",
-                FineDate = new DateTime(2024, 6, 25),
+                FineDate = new DateTime(2026, 6, 25),
                 FineType = FineType.Parking,
                 VehicleDriverName = "Thomas Thompson",
                 VehicleId = 8,
@@ -96,7 +96,7 @@ public static class FinesSeedData
             {
                 Id = 9,
                 FineNo = "F009",
-                FineDate = new DateTime(2024, 8, 3),
+                FineDate = new DateTime(2026, 8, 3),
                 FineType = FineType.Parking,
                 VehicleDriverName = "William Davis",
                 VehicleId = 9,
@@ -106,7 +106,7 @@ public static class FinesSeedData
             {
                 Id = 10,
                 FineNo = "F010",
-                FineDate = new DateTime(2024, 10, 19),
+                FineDate = new DateTime(2026, 10, 19),
                 FineType = FineType.Parking,
                 VehicleDriverName = "Jennifer Rodriguez",
                 VehicleId = 10,
@@ -118,7 +118,7 @@ public static class FinesSeedData
             {
                 Id = 11,
                 FineNo = "F011",
-                FineDate = new DateTime(2024, 1, 28),
+                FineDate = new DateTime(2026, 1, 28),
                 FineType = FineType.RedLightViolation,
                 VehicleDriverName = "Richard Lee",
                 VehicleId = 11,
@@ -128,7 +128,7 @@ public static class FinesSeedData
             {
                 Id = 12,
                 FineNo = "F012",
-                FineDate = new DateTime(2024, 3, 30),
+                FineDate = new DateTime(2026, 3, 30),
                 FineType = FineType.RedLightViolation,
                 VehicleDriverName = "Linda Harris",
                 VehicleId = 12,
@@ -138,7 +138,7 @@ public static class FinesSeedData
             {
                 Id = 13,
                 FineNo = "F013",
-                FineDate = new DateTime(2024, 5, 12),
+                FineDate = new DateTime(2026, 5, 12),
                 FineType = FineType.RedLightViolation,
                 VehicleDriverName = "Patricia Clark",
                 VehicleId = 13,
@@ -148,7 +148,7 @@ public static class FinesSeedData
             {
                 Id = 14,
                 FineNo = "F014",
-                FineDate = new DateTime(2024, 7, 21),
+                FineDate = new DateTime(2026, 7, 21),
                 FineType = FineType.RedLightViolation,
                 VehicleDriverName = "Patricia Walker",
                 VehicleId = 14,
@@ -158,7 +158,7 @@ public static class FinesSeedData
             {
                 Id = 15,
                 FineNo = "F015",
-                FineDate = new DateTime(2024, 9, 7),
+                FineDate = new DateTime(2026, 9, 7),
                 FineType = FineType.RedLightViolation,
                 VehicleDriverName = "Daniel Lewis",
                 VehicleId = 15,
@@ -170,7 +170,7 @@ public static class FinesSeedData
             {
                 Id = 16,
                 FineNo = "F016",
-                FineDate = new DateTime(2024, 2, 14),
+                FineDate = new DateTime(2026, 2, 14),
                 FineType = FineType.NoInsurance,
                 VehicleDriverName = "Elizabeth Hall",
                 VehicleId = 16,
@@ -180,7 +180,7 @@ public static class FinesSeedData
             {
                 Id = 17,
                 FineNo = "F017",
-                FineDate = new DateTime(2024, 4, 9),
+                FineDate = new DateTime(2026, 4, 9),
                 FineType = FineType.NoInsurance,
                 VehicleDriverName = "Matthew Young",
                 VehicleId = 17,
@@ -190,7 +190,7 @@ public static class FinesSeedData
             {
                 Id = 18,
                 FineNo = "F018",
-                FineDate = new DateTime(2024, 6, 18),
+                FineDate = new DateTime(2026, 6, 18),
                 FineType = FineType.NoInsurance,
                 VehicleDriverName = "Steven Allen",
                 VehicleId = 18,
@@ -200,7 +200,7 @@ public static class FinesSeedData
             {
                 Id = 19,
                 FineNo = "F019",
-                FineDate = new DateTime(2024, 8, 26),
+                FineDate = new DateTime(2026, 8, 26),
                 FineType = FineType.NoInsurance,
                 VehicleDriverName = "Christopher King",
                 VehicleId = 19,
@@ -210,7 +210,7 @@ public static class FinesSeedData
             {
                 Id = 20,
                 FineNo = "F020",
-                FineDate = new DateTime(2024, 10, 11),
+                FineDate = new DateTime(2026, 10, 11),
                 FineType = FineType.NoInsurance,
                 VehicleDriverName = "Susan Moore",
                 VehicleId = 20,
@@ -222,7 +222,7 @@ public static class FinesSeedData
             {
                 Id = 21,
                 FineNo = "F021",
-                FineDate = new DateTime(2024, 1, 19),
+                FineDate = new DateTime(2026, 1, 19),
                 FineType = FineType.SeatBeltViolation,
                 VehicleDriverName = "Andrew Martin",
                 VehicleId = 21,
@@ -232,7 +232,7 @@ public static class FinesSeedData
             {
                 Id = 22,
                 FineNo = "F022",
-                FineDate = new DateTime(2024, 3, 27),
+                FineDate = new DateTime(2026, 3, 27),
                 FineType = FineType.SeatBeltViolation,
                 VehicleDriverName = "Jessica Taylor",
                 VehicleId = 22,
@@ -242,7 +242,7 @@ public static class FinesSeedData
             {
                 Id = 23,
                 FineNo = "F023",
-                FineDate = new DateTime(2024, 5, 5),
+                FineDate = new DateTime(2026, 5, 5),
                 FineType = FineType.SeatBeltViolation,
                 VehicleDriverName = "Emily Jackson",
                 VehicleId = 23,
@@ -252,7 +252,7 @@ public static class FinesSeedData
             {
                 Id = 24,
                 FineNo = "F024",
-                FineDate = new DateTime(2024, 7, 16),
+                FineDate = new DateTime(2026, 7, 16),
                 FineType = FineType.SeatBeltViolation,
                 VehicleDriverName = "Emily White",
                 VehicleId = 24,
@@ -262,7 +262,7 @@ public static class FinesSeedData
             {
                 Id = 25,
                 FineNo = "F025",
-                FineDate = new DateTime(2024, 9, 23),
+                FineDate = new DateTime(2026, 9, 23),
                 FineType = FineType.SeatBeltViolation,
                 VehicleDriverName = "Paul Lopez",
                 VehicleId = 25,

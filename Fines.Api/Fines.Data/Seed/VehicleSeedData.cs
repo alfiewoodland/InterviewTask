@@ -20,8 +20,8 @@ public static class VehicleSeedData
                 EngineSize = "1.6L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2019, 3, 15),
-                InsuranceExpiryDate = new DateTime(2025, 3, 15),
-                MotExpiryDate = new DateTime(2025, 3, 14)
+                InsuranceExpiryDate = new DateTime(2027, 3, 15),
+                MotExpiryDate = new DateTime(2027, 3, 14)
             },
             new VehicleEntity
             {
@@ -35,8 +35,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2020, 5, 20),
-                InsuranceExpiryDate = new DateTime(2025, 5, 20),
-                MotExpiryDate = new DateTime(2025, 5, 19)
+                InsuranceExpiryDate = new DateTime(2027, 5, 20),
+                MotExpiryDate = new DateTime(2027, 5, 19)
             },
             new VehicleEntity
             {
@@ -50,8 +50,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2021, 7, 10),
-                InsuranceExpiryDate = new DateTime(2025, 7, 10),
-                MotExpiryDate = new DateTime(2025, 7, 9)
+                InsuranceExpiryDate = new DateTime(2027, 7, 10),
+                MotExpiryDate = new DateTime(2027, 7, 9)
             },
             new VehicleEntity
             {
@@ -65,8 +65,8 @@ public static class VehicleSeedData
                 EngineSize = "1.8L",
                 FuelType = "Hybrid",
                 RegistrationDate = new DateTime(2018, 9, 5),
-                InsuranceExpiryDate = new DateTime(2025, 9, 5),
-                MotExpiryDate = new DateTime(2025, 9, 4)
+                InsuranceExpiryDate = new DateTime(2027, 9, 5),
+                MotExpiryDate = new DateTime(2027, 9, 4)
             },
             new VehicleEntity
             {
@@ -80,8 +80,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2022, 11, 25),
-                InsuranceExpiryDate = new DateTime(2025, 11, 25),
-                MotExpiryDate = new DateTime(2025, 11, 24)
+                InsuranceExpiryDate = new DateTime(2027, 11, 25),
+                MotExpiryDate = new DateTime(2027, 11, 24)
             },
             new VehicleEntity
             {
@@ -95,8 +95,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2020, 2, 8),
-                InsuranceExpiryDate = new DateTime(2025, 2, 8),
-                MotExpiryDate = new DateTime(2025, 2, 7)
+                InsuranceExpiryDate = new DateTime(2027, 2, 8),
+                MotExpiryDate = new DateTime(2027, 2, 7)
             },
             new VehicleEntity
             {
@@ -110,8 +110,8 @@ public static class VehicleSeedData
                 EngineSize = "1.5L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2019, 4, 12),
-                InsuranceExpiryDate = new DateTime(2025, 4, 12),
-                MotExpiryDate = new DateTime(2025, 4, 11)
+                InsuranceExpiryDate = new DateTime(2027, 4, 12),
+                MotExpiryDate = new DateTime(2027, 4, 11)
             },
             new VehicleEntity
             {
@@ -125,8 +125,8 @@ public static class VehicleSeedData
                 EngineSize = "1.3L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2021, 6, 18),
-                InsuranceExpiryDate = new DateTime(2025, 6, 18),
-                MotExpiryDate = new DateTime(2025, 6, 17)
+                InsuranceExpiryDate = new DateTime(2027, 6, 18),
+                MotExpiryDate = new DateTime(2027, 6, 17)
             },
             new VehicleEntity
             {
@@ -140,8 +140,8 @@ public static class VehicleSeedData
                 EngineSize = "1.4L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2018, 8, 1),
-                InsuranceExpiryDate = new DateTime(2025, 8, 1),
-                MotExpiryDate = new DateTime(2025, 7, 31)
+                InsuranceExpiryDate = new DateTime(2027, 8, 1),
+                MotExpiryDate = new DateTime(2027, 7, 31)
             },
             new VehicleEntity
             {
@@ -155,8 +155,8 @@ public static class VehicleSeedData
                 EngineSize = "1.6L",
                 FuelType = "Hybrid",
                 RegistrationDate = new DateTime(2022, 10, 15),
-                InsuranceExpiryDate = new DateTime(2025, 10, 15),
-                MotExpiryDate = new DateTime(2025, 10, 14)
+                InsuranceExpiryDate = new DateTime(2027, 10, 15),
+                MotExpiryDate = new DateTime(2027, 10, 14)
             },
             new VehicleEntity
             {
@@ -170,8 +170,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2020, 1, 20),
-                InsuranceExpiryDate = new DateTime(2025, 1, 20),
-                MotExpiryDate = new DateTime(2025, 1, 19)
+                InsuranceExpiryDate = new DateTime(2027, 1, 20),
+                MotExpiryDate = new DateTime(2027, 1, 19)
             },
             new VehicleEntity
             {
@@ -185,8 +185,8 @@ public static class VehicleSeedData
                 EngineSize = "1.6L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2021, 3, 25),
-                InsuranceExpiryDate = new DateTime(2025, 3, 25),
-                MotExpiryDate = new DateTime(2025, 3, 24)
+                InsuranceExpiryDate = new DateTime(2027, 3, 25),
+                MotExpiryDate = new DateTime(2027, 3, 24)
             },
             new VehicleEntity
             {
@@ -200,8 +200,8 @@ public static class VehicleSeedData
                 EngineSize = "1.5L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2019, 5, 8),
-                InsuranceExpiryDate = new DateTime(2025, 5, 8),
-                MotExpiryDate = new DateTime(2025, 5, 7)
+                InsuranceExpiryDate = new DateTime(2027, 5, 8),
+                MotExpiryDate = new DateTime(2027, 5, 7)
             },
             new VehicleEntity
             {
@@ -215,8 +215,8 @@ public static class VehicleSeedData
                 EngineSize = "1.3L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2020, 7, 16),
-                InsuranceExpiryDate = new DateTime(2025, 7, 16),
-                MotExpiryDate = new DateTime(2025, 7, 15)
+                InsuranceExpiryDate = new DateTime(2027, 7, 16),
+                MotExpiryDate = new DateTime(2027, 7, 15)
             },
             new VehicleEntity
             {
@@ -230,8 +230,8 @@ public static class VehicleSeedData
                 EngineSize = "1.5L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2021, 9, 3),
-                InsuranceExpiryDate = new DateTime(2025, 9, 3),
-                MotExpiryDate = new DateTime(2025, 9, 2)
+                InsuranceExpiryDate = new DateTime(2027, 9, 3),
+                MotExpiryDate = new DateTime(2027, 9, 2)
             },
             new VehicleEntity
             {
@@ -245,8 +245,8 @@ public static class VehicleSeedData
                 EngineSize = "1.4L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2019, 2, 10),
-                InsuranceExpiryDate = new DateTime(2025, 2, 10),
-                MotExpiryDate = new DateTime(2025, 2, 9)
+                InsuranceExpiryDate = new DateTime(2027, 2, 10),
+                MotExpiryDate = new DateTime(2027, 2, 9)
             },
             new VehicleEntity
             {
@@ -260,8 +260,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Hybrid",
                 RegistrationDate = new DateTime(2022, 4, 5),
-                InsuranceExpiryDate = new DateTime(2025, 4, 5),
-                MotExpiryDate = new DateTime(2025, 4, 4)
+                InsuranceExpiryDate = new DateTime(2027, 4, 5),
+                MotExpiryDate = new DateTime(2027, 4, 4)
             },
             new VehicleEntity
             {
@@ -275,8 +275,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2020, 6, 14),
-                InsuranceExpiryDate = new DateTime(2025, 6, 14),
-                MotExpiryDate = new DateTime(2025, 6, 13)
+                InsuranceExpiryDate = new DateTime(2027, 6, 14),
+                MotExpiryDate = new DateTime(2027, 6, 13)
             },
             new VehicleEntity
             {
@@ -290,8 +290,8 @@ public static class VehicleSeedData
                 EngineSize = "2.0L",
                 FuelType = "Diesel",
                 RegistrationDate = new DateTime(2021, 8, 22),
-                InsuranceExpiryDate = new DateTime(2025, 8, 22),
-                MotExpiryDate = new DateTime(2025, 8, 21)
+                InsuranceExpiryDate = new DateTime(2027, 8, 22),
+                MotExpiryDate = new DateTime(2027, 8, 21)
             },
             new VehicleEntity
             {
@@ -305,8 +305,8 @@ public static class VehicleSeedData
                 EngineSize = "1.5L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2019, 10, 7),
-                InsuranceExpiryDate = new DateTime(2025, 10, 7),
-                MotExpiryDate = new DateTime(2025, 10, 6)
+                InsuranceExpiryDate = new DateTime(2027, 10, 7),
+                MotExpiryDate = new DateTime(2027, 10, 6)
             },
             new VehicleEntity
             {
@@ -320,8 +320,8 @@ public static class VehicleSeedData
                 EngineSize = "1.2L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2020, 1, 15),
-                InsuranceExpiryDate = new DateTime(2025, 1, 15),
-                MotExpiryDate = new DateTime(2025, 1, 14)
+                InsuranceExpiryDate = new DateTime(2027, 1, 15),
+                MotExpiryDate = new DateTime(2027, 1, 14)
             },
             new VehicleEntity
             {
@@ -335,8 +335,8 @@ public static class VehicleSeedData
                 EngineSize = "1.2L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2021, 3, 23),
-                InsuranceExpiryDate = new DateTime(2025, 3, 23),
-                MotExpiryDate = new DateTime(2025, 3, 22)
+                InsuranceExpiryDate = new DateTime(2027, 3, 23),
+                MotExpiryDate = new DateTime(2027, 3, 22)
             },
             new VehicleEntity
             {
@@ -350,8 +350,8 @@ public static class VehicleSeedData
                 EngineSize = "1.0L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2019, 5, 1),
-                InsuranceExpiryDate = new DateTime(2025, 5, 1),
-                MotExpiryDate = new DateTime(2025, 4, 30)
+                InsuranceExpiryDate = new DateTime(2027, 5, 1),
+                MotExpiryDate = new DateTime(2027, 4, 30)
             },
             new VehicleEntity
             {
@@ -365,8 +365,8 @@ public static class VehicleSeedData
                 EngineSize = "1.0L",
                 FuelType = "Petrol",
                 RegistrationDate = new DateTime(2020, 7, 12),
-                InsuranceExpiryDate = new DateTime(2025, 7, 12),
-                MotExpiryDate = new DateTime(2025, 7, 11)
+                InsuranceExpiryDate = new DateTime(2027, 7, 12),
+                MotExpiryDate = new DateTime(2027, 7, 11)
             },
             new VehicleEntity
             {
@@ -380,8 +380,8 @@ public static class VehicleSeedData
                 EngineSize = "N/A",
                 FuelType = "Electric",
                 RegistrationDate = new DateTime(2022, 9, 19),
-                InsuranceExpiryDate = new DateTime(2025, 9, 19),
-                MotExpiryDate = new DateTime(2025, 9, 18)
+                InsuranceExpiryDate = new DateTime(2027, 9, 19),
+                MotExpiryDate = new DateTime(2027, 9, 18)
             }
         };
     }

@@ -11,327 +11,252 @@ public static class CustomerSeedData
             new CustomerEntity
             {
                 Id = 1,
-                FirstName = "Michael",
-                LastName = "Johnson",
-                Email = "michael.johnson@email.com",
+                CompanyName = "Acme Corporation Ltd",
+                Email = "contact@acmecorp.com",
                 PhoneNumber = "07700900001",
                 Address = "12 Oak Street",
                 City = "London",
-                PostCode = "SW1A 1AA",
-                DateOfBirth = new DateTime(1985, 4, 12),
-                DriverLicenseNumber = "JOHNS850412MJ9AB"
+                PostCode = "SW1A 1AA"
             },
             new CustomerEntity
             {
                 Id = 2,
-                FirstName = "Sarah",
-                LastName = "Williams",
-                Email = "sarah.williams@email.com",
+                CompanyName = "Tech Solutions UK",
+                Email = "info@techsolutions.co.uk",
                 PhoneNumber = "07700900002",
                 Address = "45 Elm Avenue",
                 City = "Manchester",
-                PostCode = "M1 1AD",
-                DateOfBirth = new DateTime(1990, 8, 23),
-                DriverLicenseNumber = "WILLI908823SW9CD"
+                PostCode = "M1 1AD"
             },
             new CustomerEntity
             {
                 Id = 3,
-                FirstName = "David",
-                LastName = "Brown",
-                Email = "david.brown@email.com",
+                CompanyName = "Global Logistics Services",
+                Email = "contact@globallogistics.com",
                 PhoneNumber = "07700900003",
                 Address = "78 Maple Road",
                 City = "Birmingham",
-                PostCode = "B1 1BB",
-                DateOfBirth = new DateTime(1978, 11, 5),
-                DriverLicenseNumber = "BROWN781105DB9EF"
+                PostCode = "B1 1BB"
             },
             new CustomerEntity
             {
                 Id = 4,
-                FirstName = "Emma",
-                LastName = "Garcia",
-                Email = "emma.garcia@email.com",
+                CompanyName = "Premier Construction Ltd",
+                Email = "info@premierconstruction.co.uk",
                 PhoneNumber = "07700900004",
                 Address = "23 Pine Lane",
                 City = "Leeds",
-                PostCode = "LS1 1UR",
-                DateOfBirth = new DateTime(1992, 3, 17),
-                DriverLicenseNumber = "GARCI920317EG9GH"
+                PostCode = "LS1 1UR"
             },
             new CustomerEntity
             {
                 Id = 5,
-                FirstName = "Robert",
-                LastName = "Martinez",
-                Email = "robert.martinez@email.com",
+                CompanyName = "Riverside Manufacturing",
+                Email = "contact@riversidemanufacturing.com",
                 PhoneNumber = "07700900005",
                 Address = "56 Cedar Close",
                 City = "Liverpool",
-                PostCode = "L1 8JQ",
-                DateOfBirth = new DateTime(1988, 7, 29),
-                DriverLicenseNumber = "MARTI880729RM9IJ"
+                PostCode = "L1 8JQ"
             },
             new CustomerEntity
             {
                 Id = 6,
-                FirstName = "Lisa",
-                LastName = "Anderson",
-                Email = "lisa.anderson@email.com",
+                CompanyName = "Bright Marketing Agency",
+                Email = "hello@brightmarketing.co.uk",
                 PhoneNumber = "07700900006",
                 Address = "89 Birch Way",
                 City = "Bristol",
-                PostCode = "BS1 5TR",
-                DateOfBirth = new DateTime(1986, 12, 14),
-                DriverLicenseNumber = "ANDER861214LA9KL"
+                PostCode = "BS1 5TR"
             },
             new CustomerEntity
             {
                 Id = 7,
-                FirstName = "James",
-                LastName = "Wilson",
-                Email = "james.wilson@email.com",
+                CompanyName = "Yorkshire Steel Works",
+                Email = "enquiries@yorkshiresteel.com",
                 PhoneNumber = "07700900007",
                 Address = "34 Willow Street",
                 City = "Sheffield",
-                PostCode = "S1 2JE",
-                DateOfBirth = new DateTime(1983, 5, 8),
-                DriverLicenseNumber = "WILSO830508JW9MN"
+                PostCode = "S1 2JE"
             },
             new CustomerEntity
             {
                 Id = 8,
-                FirstName = "Mary",
-                LastName = "Thompson",
-                Email = "mary.thompson@email.com",
+                CompanyName = "Northeast Retail Group",
+                Email = "info@northeastretail.co.uk",
                 PhoneNumber = "07700900008",
                 Address = "67 Ash Drive",
                 City = "Newcastle",
-                PostCode = "NE1 4XE",
-                DateOfBirth = new DateTime(1995, 9, 21),
-                DriverLicenseNumber = "THOMP950921MT9OP"
+                PostCode = "NE1 4XE"
             },
             new CustomerEntity
             {
                 Id = 9,
-                FirstName = "William",
-                LastName = "Davis",
-                Email = "william.davis@email.com",
+                CompanyName = "Midlands Transport Services",
+                Email = "contact@midlandstransport.com",
                 PhoneNumber = "07700900009",
                 Address = "12 Spruce Road",
                 City = "Nottingham",
-                PostCode = "NG1 5FS",
-                DateOfBirth = new DateTime(1981, 2, 3),
-                DriverLicenseNumber = "DAVIS810203WD9QR"
+                PostCode = "NG1 5FS"
             },
             new CustomerEntity
             {
                 Id = 10,
-                FirstName = "Jennifer",
-                LastName = "Rodriguez",
-                Email = "jennifer.rodriguez@email.com",
+                CompanyName = "Innovative Tech Partners",
+                Email = "hello@innovativetech.co.uk",
                 PhoneNumber = "07700900010",
                 Address = "45 Poplar Avenue",
                 City = "Leicester",
-                PostCode = "LE1 6PN",
-                DateOfBirth = new DateTime(1993, 6, 16),
-                DriverLicenseNumber = "RODRI930616JR9ST"
+                PostCode = "LE1 6PN"
             },
             new CustomerEntity
             {
                 Id = 11,
-                FirstName = "Richard",
-                LastName = "Lee",
-                Email = "richard.lee@email.com",
+                CompanyName = "Central Engineering Solutions",
+                Email = "info@centralengineering.com",
                 PhoneNumber = "07700900011",
                 Address = "78 Sycamore Lane",
                 City = "Coventry",
-                PostCode = "CV1 5FB",
-                DateOfBirth = new DateTime(1987, 10, 27),
-                DriverLicenseNumber = "LEERI871027RL9UV"
+                PostCode = "CV1 5FB"
             },
             new CustomerEntity
             {
                 Id = 12,
-                FirstName = "Linda",
-                LastName = "Harris",
-                Email = "linda.harris@email.com",
+                CompanyName = "Bradford Textiles Ltd",
+                Email = "contact@bradfordtextiles.co.uk",
                 PhoneNumber = "07700900012",
                 Address = "23 Chestnut Close",
                 City = "Bradford",
-                PostCode = "BD1 1PR",
-                DateOfBirth = new DateTime(1991, 1, 11),
-                DriverLicenseNumber = "HARRI910111LH9WX"
+                PostCode = "BD1 1PR"
             },
             new CustomerEntity
             {
                 Id = 13,
-                FirstName = "Thomas",
-                LastName = "Clark",
-                Email = "thomas.clark@email.com",
+                CompanyName = "Scottish Finance Group",
+                Email = "enquiries@scottishfinance.com",
                 PhoneNumber = "07700900013",
                 Address = "56 Hawthorn Street",
                 City = "Edinburgh",
-                PostCode = "EH1 1YZ",
-                DateOfBirth = new DateTime(1984, 4, 30),
-                DriverLicenseNumber = "CLARK840430TC9YZ"
+                PostCode = "EH1 1YZ"
             },
             new CustomerEntity
             {
                 Id = 14,
-                FirstName = "Patricia",
-                LastName = "Walker",
-                Email = "patricia.walker@email.com",
+                CompanyName = "Welsh Digital Media",
+                Email = "hello@welshdigital.co.uk",
                 PhoneNumber = "07700900014",
                 Address = "89 Beech Road",
                 City = "Cardiff",
-                PostCode = "CF10 1DD",
-                DateOfBirth = new DateTime(1989, 8, 7),
-                DriverLicenseNumber = "WALKE890807PW9AB"
+                PostCode = "CF10 1DD"
             },
             new CustomerEntity
             {
                 Id = 15,
-                FirstName = "Daniel",
-                LastName = "Lewis",
-                Email = "daniel.lewis@email.com",
+                CompanyName = "Glasgow Property Developments",
+                Email = "info@glasgowproperty.com",
                 PhoneNumber = "07700900015",
                 Address = "34 Rowan Avenue",
                 City = "Glasgow",
-                PostCode = "G1 1AA",
-                DateOfBirth = new DateTime(1994, 12, 19),
-                DriverLicenseNumber = "LEWIS941219DL9CD"
+                PostCode = "G1 1AA"
             },
             new CustomerEntity
             {
                 Id = 16,
-                FirstName = "Elizabeth",
-                LastName = "Hall",
-                Email = "elizabeth.hall@email.com",
+                CompanyName = "Coastal Shipping Associates",
+                Email = "contact@coastalshipping.co.uk",
                 PhoneNumber = "07700900016",
                 Address = "67 Holly Lane",
                 City = "Plymouth",
-                PostCode = "PL1 1AA",
-                DateOfBirth = new DateTime(1982, 5, 24),
-                DriverLicenseNumber = "HALLE820524EH9EF"
+                PostCode = "PL1 1AA"
             },
             new CustomerEntity
             {
                 Id = 17,
-                FirstName = "Matthew",
-                LastName = "Young",
-                Email = "matthew.young@email.com",
+                CompanyName = "Southampton Electronics Ltd",
+                Email = "info@southamptonelectronics.com",
                 PhoneNumber = "07700900017",
                 Address = "12 Laurel Drive",
                 City = "Southampton",
-                PostCode = "SO14 0AA",
-                DateOfBirth = new DateTime(1996, 9, 2),
-                DriverLicenseNumber = "YOUNG960902MY9GH"
+                PostCode = "SO14 0AA"
             },
             new CustomerEntity
             {
                 Id = 18,
-                FirstName = "Barbara",
-                LastName = "Allen",
-                Email = "barbara.allen@email.com",
+                CompanyName = "Portsmouth Marine Services",
+                Email = "enquiries@portsmouthmarine.co.uk",
                 PhoneNumber = "07700900018",
                 Address = "45 Juniper Road",
                 City = "Portsmouth",
-                PostCode = "PO1 3AX",
-                DateOfBirth = new DateTime(1980, 3, 13),
-                DriverLicenseNumber = "ALLEN800313BA9IJ"
+                PostCode = "PO1 3AX"
             },
             new CustomerEntity
             {
                 Id = 19,
-                FirstName = "Christopher",
-                LastName = "King",
-                Email = "christopher.king@email.com",
+                CompanyName = "Reading Software Systems",
+                Email = "hello@readingsoftware.com",
                 PhoneNumber = "07700900019",
                 Address = "78 Cypress Street",
                 City = "Reading",
-                PostCode = "RG1 1AA",
-                DateOfBirth = new DateTime(1997, 7, 6),
-                DriverLicenseNumber = "KINGC970706CK9KL"
+                PostCode = "RG1 1AA"
             },
             new CustomerEntity
             {
                 Id = 20,
-                FirstName = "Susan",
-                LastName = "Moore",
-                Email = "susan.moore@email.com",
+                CompanyName = "Cambridge Research Labs",
+                Email = "contact@cambridgeresearch.co.uk",
                 PhoneNumber = "07700900020",
                 Address = "23 Magnolia Close",
                 City = "Cambridge",
-                PostCode = "CB1 1PT",
-                DateOfBirth = new DateTime(1985, 11, 28),
-                DriverLicenseNumber = "MOORE851128SM9MN"
+                PostCode = "CB1 1PT"
             },
             new CustomerEntity
             {
                 Id = 21,
-                FirstName = "Andrew",
-                LastName = "Martin",
-                Email = "andrew.martin@email.com",
+                CompanyName = "Oxford Publishing House",
+                Email = "info@oxfordpublishing.com",
                 PhoneNumber = "07700900021",
                 Address = "56 Redwood Avenue",
                 City = "Oxford",
-                PostCode = "OX1 1AA",
-                DateOfBirth = new DateTime(1988, 2, 15),
-                DriverLicenseNumber = "MARTI880215AM9OP"
+                PostCode = "OX1 1AA"
             },
             new CustomerEntity
             {
                 Id = 22,
-                FirstName = "Jessica",
-                LastName = "Taylor",
-                Email = "jessica.taylor@email.com",
+                CompanyName = "Brighton Design Studios",
+                Email = "hello@brightondesign.co.uk",
                 PhoneNumber = "07700900022",
                 Address = "89 Hickory Lane",
                 City = "Brighton",
-                PostCode = "BN1 1AA",
-                DateOfBirth = new DateTime(1992, 6, 9),
-                DriverLicenseNumber = "TAYLO920609JT9QR"
+                PostCode = "BN1 1AA"
             },
             new CustomerEntity
             {
                 Id = 23,
-                FirstName = "Mark",
-                LastName = "Jackson",
-                Email = "mark.jackson@email.com",
+                CompanyName = "Bournemouth Hospitality Group",
+                Email = "contact@bournemouthhospitality.com",
                 PhoneNumber = "07700900023",
                 Address = "34 Dogwood Road",
                 City = "Bournemouth",
-                PostCode = "BH1 1AA",
-                DateOfBirth = new DateTime(1979, 10, 22),
-                DriverLicenseNumber = "JACKS791022MJ9ST"
+                PostCode = "BH1 1AA"
             },
             new CustomerEntity
             {
                 Id = 24,
-                FirstName = "Emily",
-                LastName = "White",
-                Email = "emily.white@email.com",
+                CompanyName = "York Heritage Trust",
+                Email = "enquiries@yorkheritage.co.uk",
                 PhoneNumber = "07700900024",
                 Address = "67 Fir Street",
                 City = "York",
-                PostCode = "YO1 7AA",
-                DateOfBirth = new DateTime(1991, 4, 5),
-                DriverLicenseNumber = "WHITE910405EW9UV"
+                PostCode = "YO1 7AA"
             },
             new CustomerEntity
             {
                 Id = 25,
-                FirstName = "Paul",
-                LastName = "Lopez",
-                Email = "paul.lopez@email.com",
+                CompanyName = "Norwich Agricultural Supplies",
+                Email = "info@norwichagri.com",
                 PhoneNumber = "07700900025",
                 Address = "12 Sequoia Drive",
                 City = "Norwich",
-                PostCode = "NR1 1AA",
-                DateOfBirth = new DateTime(1986, 8, 18),
-                DriverLicenseNumber = "LOPEZ860818PL9WX"
+                PostCode = "NR1 1AA"
             }
         };
     }

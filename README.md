@@ -4,12 +4,12 @@ You will be working with a Fines Management system that consists of a .NET API b
 
 ## Requirements
 
-### What You Need to Do
+### Overview
 
 1. **Fork and Clone**
 
-   - Fork this repository to your own GitHub account
-   - Clone your fork locally to begin work
+   - Use this repository template to create a new public repository on your own GitHub account
+   - Clone your repository locally to begin working on the task
 
 2. **Frontend Implementation** (React/TypeScript)
 
@@ -29,13 +29,13 @@ You will be working with a Fines Management system that consists of a .NET API b
 
 ## Your Task
 
-Extend and modify the API and frontend, to include the following:
+Extend and modify the API and frontend to include the following:
 
 ### Additional Columns
 
 Add the following column to the existing table of fines on the front end:
 
-**Customer Name** - The first and last name of the customer who received the fine.
+**Customer Name** - The company name of the customer who received the fine. This can be found in the Customers repository.
 
 ### Filters
 
@@ -56,7 +56,7 @@ Implement filters on the front end to allow users to filter fines on the followi
 
 ### Running the API/Front End
 
-Each application has a respective readme, Please see the Fines.Api and Fines.Client folders.
+Each application has a respective README.md file, Please see the Fines.Api and Fines.Client folders.
 
 ## Technologies Used
 
@@ -79,9 +79,9 @@ Each application has a respective readme, Please see the Fines.Api and Fines.Cli
 Once you've completed the task:
 
 1. Ensure all your changes are committed
-2. Push to your forked repository
-3. Share the link to your repository with the interviewer
+2. Push to your repository
+3. Share a link to your repository with your contact at Zenith
 
 ## Questions?
 
-If you have any questions about the task requirements or encounter issues with the setup, please reach out to your recruitment contact.
+If you have any questions about the task requirements or encounter issues with the setup, please reach out to your contact at Zenith for clarification.
