@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fines.Api", "Fines.Api", "{A5879E5D-8D98-CE32-46E2-5DC57CC0CE34}"
 EndProject
@@ -13,6 +13,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fines.Core", "Fines.Api\Fines.Core\Fines.Core.csproj", "{F48F7CFB-1349-4E7F-89C0-30C895DD89B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fines.Tests", "Fines.Api\Fines.Tests\Fines.Tests.csproj", "{50CCE1CC-F590-49CE-A2F4-5995531A11F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{E08CF5A9-515B-43C1-B939-BEB41E9D10BE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
