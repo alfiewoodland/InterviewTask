@@ -2,48 +2,46 @@
 
 You will be working with a Fines Management system that consists of a .NET API backend and a React frontend. Your goal is to implement filtering functionality across both layers.
 
-## Requirements
-
-### Overview
+### Requirements
 
 1. **Fork and Clone**
-
    - Use this repository template to create a new public repository on your own GitHub account
    - Clone your repository locally to begin working on the task
 
-2. **Frontend Implementation** (React/TypeScript)
+2. **Implement Changes**
+   - Modify the API to return the additional field and support filtering fines
+   - Update the front end to display the new column and allow users to filter fines
+   - Carry out any additional improvements or refactoring as you see fit
 
-   - Implement filter components/controls (e.g., filter by fine type, date range, customer name, etc.)
-   - React to filter changes, make a request to the API and update the UI accordingly
-   - Add additional column requested in the task.
-
-3. **Backend Implementation** (.NET/C#)
-
-   - Implement API endpoint(s) to accept filter parameters
-   - Query the Entity Framework repository with the filters
-   - Ensure proper response structure and status codes
-
-4. **Submit Your Work**
-   - Push your completed solution to your forked repository
+3. **Submit Your Work**
+   - Check in and push your completed solution to your repository
    - Ensure all code is committed and the repository is public (or accessible to reviewers)
 
 ## Your Task
 
-Extend and modify the API and frontend to include the following:
+Extend and modify the API and front end to include the following:
 
 ### Additional Columns
 
 Add the following column to the existing table of fines on the front end:
 
-**Customer Name** - The company name of the customer who received the fine. This can be found in the Customers repository.
+**Customer Name** - This should contain the `CompanyName` of the customer who received the fine. You will need to join the `Fines` and `Customers` data to retrieve this information.
 
 ### Filters
 
-Implement filters on the front end to allow users to filter fines on the following fields:
+Add filters to the front end for the following fields:
 
 1. **Fine Date** - Date picker
 2. **Fine Type** - Drop down / Select
 3. **Vehicle Registration** - Free text
+
+The user should be able to apply no filters, one filter, or multiple filters simultaneously. The front end should fetch data from the API and update based on the selected filters.
+
+### Other Considerations
+
+- Ensure proper response structure and status codes from the API
+- Consider perfomance and error handling where appropriate
+- Ensure tests pass
 
 ## Getting Started
 
